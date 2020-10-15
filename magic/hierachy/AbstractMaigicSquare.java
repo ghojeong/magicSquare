@@ -26,7 +26,7 @@ public abstract class AbstractMaigicSquare implements IMagicSquare {
 	}
 
 	// 마방진 검증로직 구현
-	public boolean isCheck() {
+	public boolean isMagicSquare() {
 		boolean isCheck = true;
 		int count = max + 1;
 

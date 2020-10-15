@@ -17,33 +17,33 @@ public class Main {
 			im = FactoryMagic.factory(i);
 			im.make();
 			System.out.println("\n" + i);
-			System.out.println(im.isCheck());
+			System.out.println(im.isMagicSquare());
 			System.out.println(im);
 		}
 
 		// OddMagicSquare odd = new OddMagicSquare(7);
 		// odd.make();
-		// odd.print();
-		// System.out.println(odd.isCheck());
+		// System.out.println(odd.isMagicSquare());
+		// System.out.println(odd);
 
 		// FourMagicSquare four = new FourMagicSquare();
 		// four.make();
-		// four.print();
-		// System.out.println(four.isCheck());
+		// System.out.println(four.isMagicSquare());
+		// System.out.println(four);
 
-		// SixMagicSquare six = new SixMagicSquare(10);
+		// IMagicSquare six = new SixMagicSquare();
 		// six.make();
-		// six.print();
-		// System.out.println(six.isCheck());
+		// System.out.println(six.isMagicSquare());
+		// System.out.println(six);
+
+		// SixMagicSquare sixTen = new SixMagicSquare(10);
+		// sixTen.make();
+		// System.out.println(sixTen.isMagicSquare());
+		// System.out.println(sixTen);
 
 		// AbstractMaigicSquare ams = new SixMagicSquare();
 		// ams.make();
-		// ams.print();
-		// System.out.println(ams.isCheck());
-
-		// IMagicSquare im = new SixMagicSquare();
-		// im.make();
-		// im.print();
-		// System.out.println(im.isCheck());
+		// System.out.println(ams.isMagicSquare());
+		// System.out.println(ams);
 	}
 }

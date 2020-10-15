@@ -5,5 +5,5 @@ public interface IMagicSquare {
 
 	public void make();
 
-	public boolean isCheck();
+	public boolean isMagicSquare();
 }
