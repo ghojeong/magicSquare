@@ -12,3 +12,7 @@ java -cp ./classes magic.Main
 // 컴파일된 class 삭제
 rm -rf ./classes
 ```
+
+## Class Diagram
+
+![class_diagram](class_diagram.png)
